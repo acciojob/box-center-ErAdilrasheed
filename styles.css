@@ -2,12 +2,21 @@
   width: 200px;
   height: 200px;
   background-color: lightblue;
+  color: purple;
+  text-align: center;
+
+  /* Centering the box in the page */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* Centering the text inside the box */
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 
-  /* Explicit borders for test */
+  /* Border on all sides */
   border-top: 2px solid #000;
   border-right: 2px solid #000;
   border-bottom: 2px solid #000;
